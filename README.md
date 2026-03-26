@@ -23,10 +23,6 @@ Identification is achieved using high-frequency external instruments (proxies) a
 .
 ├── MainCode.m                # Baseline replication of Lakdawala (2019)
 ├── MainCodeOdyssean.m        # Scenario isolating Odyssean shocks (Path instrument cleaned)
-├── Data/
-│   └── all_data.mat          # Macroeconomic series (FFR, 1Y, log(CPI), log(IP))
-├── Instruments/
-│   └── TP1_instr.mat         # External proxies (Target and Path factors)
 └── functions/                # Core library for MD estimation and SVAR logic
     ├── MinimumDistance_Partial_g2.m # MD objective function with Lakdawala zero restriction
     ├── MD_boot_target.m             # Objective function adapted for Bootstrap routines
